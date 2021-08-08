@@ -1,2 +1,6 @@
-# test program by Joe Programmer
-#eat
+name = input("Please tell me your name:")
+age = input("Please tell me your age:")
+s1 = "You are {0} years old."
+s2 = "Hello, {1}. Python is {0} years older than you are!"
+print(s1.format(age))
+print(s2.format(int(age) - 8))
